@@ -15,6 +15,7 @@ int main(){
 	printf("4- Sair do Programa \n");
 	scanf("%d",&opcao);
 	system("cls");
+		
 		if(opcao==1){
 			printf("Voce selecionou Ondas Mecanicas!\n\nAs ondas mecanicas sao pertubacoes que carregam ernegia\ne precisam de um meio para se propagar e possuem algumas caracteristicas como:\n\n-> Amplitude: a altura das ondas mecanica.\n\n*Vales: sao os pontos mais baixos das ondas mecanica\n\n-> Comprimento de onda: e o tamanho do pulso que se repete\n\n-> Frequencia: e o numero de oscilacoes medidas em um intervalo de tempo\n\n-> Periodo: e o tempo gasto para que uma oscilacao se complete. \nTendo a velocidade calculada como a frequencia e o compriemnto [V=K*f]\n\n");
 			printf("Qual calculo voce deseja realizar? \n");
@@ -124,7 +125,7 @@ int main(){
 						printf("A variacao de energia interna e de %0.2fJ \n",vdi);}
 					}//if
 				else if(o3==3){
-						printf("Qual a press„o sofrida? \n");
+						printf("Qual a press√£o sofrida? \n");
 						scanf("%f",&pre);
 						printf("Qual a variacao de volume? \n");
 						scanf("%f",&vdv);
